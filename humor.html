@@ -1,8 +1,16 @@
 <html>
   <head>
-    <title>Meditation</title>
+    <title>Humor</title>
   </head>
   <body>
-    <p></p>
+    <p>Humor can be defined in terms of information theory.  Basically, humor is defined as inversion.  So when telling a joke, there is a buildup to a punchline.  This buildup can be positive (i.e. we are saying good and/or happy things), or negative (we are saying horrible things).  At the point of the punchline, the joke inverts.</p>
+    <p>So if we were building up to a good place, the punchline tells us that we were really building up to an evil place.  Likewise, if we were building up to a nominally evil place, the punchline inverts us to a good place. </p>
+    <p>In words, we consider emotional intensity E as a function of time: E = f(t).  This function is exponential, i.e.</p>
+    <p>E = k*e^t</p>
+    <p>We can use any base for the exponent, but here since we are speaking mathematically we use the natural base e.  If we were implementing this in code, we would probably use a base of 2.</p>
+    <p>If the buildup is positive, k = 1.  If the buildup is negative, k = -1.</p>
+    <p>At the point of punchline (t = p), the function experiences a discontinuity and inverts itself.  So if k = 1 before the punchline, k = -1 after the punchline.  Mathematically:</p>
+    <p>E = {for all t < p; E = k*e^t | for all t >= p, E = -k*e^t</p>
+    <p>This can be expressed in the form of a graph like this:</p>
   </body>
 </html>
