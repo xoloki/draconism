@@ -17,6 +17,11 @@
     <p>So if we were building up to a good place, the punchline tells us that we were really building up to an evil place.  Likewise, if we were building up to a nominally evil place, the punchline inverts us to a good place.  It actually doesn't matter which direction we start in or end up, either way we laugh when we get the joke.</p>
     <p>In words, we consider emotional intensity \(E\) as a function of time: \(E = f(t)\).  This function is exponential, i.e.</p>
     <p>\(E = k e^t\)</p>
+    <p>
+   \begin{align}
+    E &amp; = k e^t \\
+    \end{align}
+    </p>
     <p>We can use any base for the exponent, but here since we are speaking mathematically we use the natural base \(e\).  If we were implementing this in code, we would probably use a base of 2.</p>
     <p>If the buildup is positive then \(k\) is positive, e.g. \(k = 1\).  If the buildup is negative, then k is negative, e.g. \(k = -1\).  The rhythm and volume of the buildup determines the magnitude of \(k\); a really loud happy buildup might have \(k = 8\), while a soft sad buildup might have \(k = -1/2\).  </p>
     <p>At the point of punchline (\(t = p\)), the function experiences a discontinuity and inverts itself.  So if \(k = 1\) before the punchline, \(k = -1\) after the punchline, and vice versa.  Mathematically:</p>
