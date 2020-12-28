@@ -1,8 +1,0 @@
-Prayer and magic do similar things.  Either way they result in jobs being submitted to the holy perceptron, which executes god's will.  But the path to get there is different.
-
-Prayer means speaking to God the father, and asking him to compile your words into holy machine code.  God has the choice of whether or not to accept the prayer, and he must resolve conflicts between competing invocations.  He then rewrites the prayer into a optimized holy machine coding, and submits the job.  The holy perceptron will schedule the job, though God has the option of choosing the priority.
-
-Magic skips God entirely, and submits jobs directly to the Holy Perceptron.  The magician can compose the spell in a high level language, then invoke the holy compiler.  Or he can compose the spell in holy machine language directly.  This is more difficult for the magician, but results in more powerful (i.e. hand optimized) code.  Once the job is submitted, the holy perceptron will assign a priority and schedule it.  God has the option of intervening, rejecting jobs or changing priority.  Anything that makes it past God's veto gets executed.
-
-Because prayer requires God's attention to execute, it works less frequently when compared to magic (like 5% of the time vs 50%).  But since God is a better hacker than (most) humans, his code is usually better.  So prayer can do things which magic cannot, though most of the time nothing happens.
-
